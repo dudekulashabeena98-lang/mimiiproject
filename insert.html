@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Insert Product</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Inventory Management System</h1>
+    <h2>Insert Product</h2>
+
+    <form id="insertForm">
+        <input type="text" id="product_name" placeholder="Product Name" required>
+
+        <input type="text" id="category" placeholder="Category" required>
+
+        <input type="number" id="price" placeholder="Price" step="0.01" min="0" required>
+
+        <input type="number" id="quantity" placeholder="Quantity" min="0" required>
+
+        <input type="number" id="reorder_level" placeholder="Reorder Level" min="0" required>
+
+        <button type="submit">Insert Product</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

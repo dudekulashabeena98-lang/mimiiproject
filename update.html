@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update Product</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Inventory Management System</h1>
+    <h2>Update Product</h2>
+
+    <form id="updateForm">
+        <input type="number" id="product_id" placeholder="Product ID" required>
+
+        <input type="text" id="product_name" placeholder="Product Name" required>
+
+        <input type="text" id="category" placeholder="Category" required>
+
+        <input type="number" id="price" placeholder="Price" step="0.01" min="0" required>
+
+        <input type="number" id="quantity" placeholder="Quantity" min="0" required>
+
+        <input type="number" id="reorder_level" placeholder="Reorder Level" min="0" required>
+
+        <button type="submit">Update Product</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
